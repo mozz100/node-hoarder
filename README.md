@@ -1,4 +1,7 @@
-A node.js implementation of [backstop](https://github.com/obfuscurity/backstop).
+A node.js implementation of [backstop](https://github.com/obfuscurity/backstop) - well, actually, inspired by backstop but a tad different.
+
+Using [hoard](https://github.com/cgbystrom/hoard/) as a back end, enables the storage of time-series
+data by HTTP POST, and retrieval by HTTP GET.
 
 Licence
 -------
