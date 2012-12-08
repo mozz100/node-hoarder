@@ -1,6 +1,6 @@
 {
   "name": "hoarder",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Collect and explore time-series metrics using HTTP.",
   "main": "index.js",
   "scripts": {
