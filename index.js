@@ -7,6 +7,7 @@ unixTime = function() {
   return parseInt(new Date().getTime() / 1000);
 };
 
+exports.hoard = hoard;
 exports.init = function(url_path, prefixes, express, app, fldr_path) {
     prefixes = prefixes;
     app.use(url_path, express.bodyParser());
@@ -26,7 +27,6 @@ exports.init = function(url_path, prefixes, express, app, fldr_path) {
                 });
             
             });
-
             app.post(url_path + "/publish", function(req, res) {
                 var metric_name = req.body.metric;
                 var measure_time = req.body.measure_time ? parseInt(req.body.measure_time) : unixTime();
