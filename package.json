@@ -1,6 +1,6 @@
 {
   "name": "hoarder",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Collect and explore time-series metrics using HTTP.",
   "main": "index.js",
   "scripts": {
@@ -11,17 +11,27 @@
     "url": "https://github.com/mozz100/node-hoarder.git"
   },
   "keywords": [
-  "time",
-  "timeseries",
-  "series",
-  "rrd"
+    "time",
+    "timeseries",
+    "series",
+    "rrd"
   ],
   "dependencies": {
-      "hoard" : "0.1.x",
-      "express-resource" : "0.1.x",
-      "mkdirp": "0.3.x"
+    "express-resource": "0.1.x",
+    "mkdirp": "0.3.x",
+    "put": ">= 0.0.5",
+    "binary": ">= 0.2.5"
   },
-  "author": "Richard Morrison <richard@rmorrison.net>",
+  "author": {
+    "name": "Richard Morrison",
+    "email": "richard@rmorrison.net"
+  },
   "license": "CC-by-SA",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "readme": "A node.js implementation of [backstop](https://github.com/obfuscurity/backstop) - well, actually, inspired by backstop but a tad different.\n\nUsing [hoard](https://github.com/cgbystrom/hoard/) as a back end, enables the storage of time-series\ndata by HTTP POST, and retrieval by HTTP GET.\n\nLicence\n-------\n\n<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/2.0/uk/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"http://i.creativecommons.org/l/by-sa/2.0/uk/88x31.png\" /></a><br />This work by <span xmlns:cc=\"http://creativecommons.org/ns#\" property=\"cc:attributionName\">Richard Morrison</span> is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/2.0/uk/\">Creative Commons Attribution-ShareAlike 2.0 UK: England &amp; Wales License</a>.<br />Based on a work at <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://github.com/mozz100/node-hoarder\" rel=\"dct:source\">github.com</a>.",
+  "_id": "hoarder@0.0.3",
+  "dist": {
+    "shasum": "6249c7db94fc2af08e11135bc676f898c0d0c320"
+  },
+  "_from": "hoarder@0.0.3"
 }
