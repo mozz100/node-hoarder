@@ -1,5 +1,5 @@
 var prefixes = [];
-var hoard = require('hoard');
+var hoard = require('./hoard');
 var mkdirp = require('mkdirp');
 var path = require('path');
 var fldr_path;
